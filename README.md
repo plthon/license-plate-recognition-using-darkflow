@@ -23,9 +23,9 @@ A total of 382 frames were annotated and to be used for training the deep learni
 
 ### Model Training using [Darkflow](https://github.com/thtrieu/darkflow)
 
-We used [Darkflow](https://github.com/thtrieu/darkflow) to train the license-plate detection model. The model is a [YOLOv2](https://arxiv.org/pdf/1612.08242.pdf) model (You Only Look Once).  
-We used a pretrained model from [Theophilebuyssens](https://medium.com/@theophilebuyssens/license-plate-recognition-using-opencv-yolo-and-keras-f5bfe03afc65).
-We fine-tuned the model by training the model again with our own self-annotated dataset.  
+I used [Darkflow](https://github.com/thtrieu/darkflow) to train the license-plate detection model. The model is a [YOLOv2](https://arxiv.org/pdf/1612.08242.pdf) model (You Only Look Once).  
+I used a pretrained model from [Theophilebuyssens](https://medium.com/@theophilebuyssens/license-plate-recognition-using-opencv-yolo-and-keras-f5bfe03afc65).
+I fine-tuned the model by training the model again with our own self-annotated dataset.  
 The [notebook](notebooks/LicensePlateDetection.ipynb) can be found in the notebook [directory](notebooks).
 
 #### Training Configuration
@@ -37,8 +37,8 @@ The training configuration parameters are as followed:
 
 ### Model Testing and Results
 
-We fed the model with 10 test images and the bounding boxes detected are compared with the ground truths to compute the mean average precision (mAP) score.  
-The mAP score that we achieve is <strong>76.8%</strong> with IoU of <strong>0.3</strong>.  
+I fed the model with 10 test images and the bounding boxes detected are compared with the ground truths to compute the mean average precision (mAP) score.  
+The mAP score that I achieve is <strong>76.8%</strong> with IoU of <strong>0.3</strong>.  
 <p align="center">
   <img width="460" height="300" src="https://user-images.githubusercontent.com/43836186/120340255-6a08c580-c328-11eb-8db5-a9ec1a3533c7.png">
 </p>
