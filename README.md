@@ -35,6 +35,10 @@ The training configuration parameters are as followed:
 - Learning rate: <strong>0.00001</strong>
 - Epoch number: <strong>100</strong>
 
+### Character Recognition
+
+The license-plate numbers recognition is done using the [pytesseract](https://pypi.org/project/pytesseract/) library from PyPI.
+
 ### Model Testing and Results
 
 I fed the model with 10 test images and the bounding boxes detected are compared with the ground truths to compute the mean average precision (mAP) score.  
