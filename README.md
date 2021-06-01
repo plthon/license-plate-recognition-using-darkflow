@@ -40,5 +40,5 @@ The training configuration parameters are as followed:
 I fed the model with 10 test images and the bounding boxes detected are compared with the ground truths to compute the mean average precision (mAP) score.  
 The mAP score that I achieve is <strong>76.8%</strong> with IoU of <strong>0.3</strong>.  
 <p align="center">
-  <img width="460" height="300" src="https://user-images.githubusercontent.com/43836186/120340255-6a08c580-c328-11eb-8db5-a9ec1a3533c7.png">
+  <img width="500" height="500" src="https://user-images.githubusercontent.com/43836186/120340255-6a08c580-c328-11eb-8db5-a9ec1a3533c7.png">
 </p>
