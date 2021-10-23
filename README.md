@@ -26,7 +26,7 @@ A total of 382 frames were annotated and to be used for training the deep learni
 I used [Darkflow](https://github.com/thtrieu/darkflow) to train the license-plate detection model. The model is a [YOLOv2](https://arxiv.org/pdf/1612.08242.pdf) model (You Only Look Once).  
 I used a pretrained model from [Theophilebuyssens](https://medium.com/@theophilebuyssens/license-plate-recognition-using-opencv-yolo-and-keras-f5bfe03afc65).
 I fine-tuned the model by training the model again with our own self-annotated dataset.  
-The [notebook](notebooks/LicensePlateDetection.ipynb) can be found in the notebook [directory](notebooks).
+The [notebook](notebooks/darkflow_yolov3.ipynb) can be found in the notebook [directory](notebooks).
 
 #### Training Configuration
 
